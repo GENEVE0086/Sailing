@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "Login",
+        name: 'Login',
       data(){
           return{}
       }
@@ -14,5 +14,15 @@
 </script>
 
 <style scoped>
-
+div {
+        width: 100%;
+        padding-bottom: 62.5%;
+        height: 0;
+        background: url('../../assets/background.jpg') no-repeat center center fixed;
+        background-size: cover;
+        background-color: #0C1424;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 </style>
