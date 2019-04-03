@@ -1,61 +1,55 @@
 <template>
+  <div>
     <div id="head">
       <div class="logo">
-        <router-link :to="{name:'HelloWorld'}"><img src="http://staticpic.6apt.com/static/images/logo.png" width="178" height="38" alt=""></router-link>
+        <router-link :to="{name:'HelloWorld'}"><img src="http://staticpic.6apt.com/static/images/logo.png" width="178"
+                                                    height="38" alt=""></router-link>
       </div>
       <div class="user">
-      <ul>
-        <li>
-        <router-link :to="{name:'Login'}">登录</router-link>
-        </li>
-        <li>
-        <router-link :to="{name:'Register'}">注册</router-link>
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <router-link :to="{name:'Login'}">登录</router-link>
+          </li>
+          <li>
+            <router-link :to="{name:'Register'}">注册</router-link>
+          </li>
+        </ul>
+<!--        <span><router-link :to="{name:'Login'}">登录</router-link></span>-->
+<!--        <span><router-link :to="{name:'Register'}">注册</router-link></span>-->
       </div>
     </div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-    import HelloWorld from "../HelloWorld";
-    import Login from "./Login";
-    import Register from "./Register";
+  import HelloWorld from "../HelloWorld";
+  import Login from "./Login";
+  import Register from "./Register";
 
-    export default {
-        name: 'Head',
-      data(){
-          return{};
-      },
-      routes:[
-        {
-          name:'HelloWorld',
-          path:'/',
-          components:HelloWorld
-        },
-        {
-          name:'Login',
-          path:'/login',
-          components:Login
-        },
-        {
-          name:'Register',
-          path:'/register',
-          components:Register
-        }
-      ]
+  export default {
+    name: 'Head',
+    data() {
+      return {};
+    },
+    components: {
+      helloWorld: HelloWorld,
+      register: Register,
+      login: Login
     }
+
+  }
 </script>
 
 <style scoped>
   #head {
-    border: 1px solid #eeeeee;
-    border-left-style: none;
-    border-right-style: none;
-    border-top-style: none;
-    min-width: 1200px;
-    top:0;
+    border: 1px none #eeeeee;
+    border-bottom-style: solid;
+    width: 100%;
+    top: 0;
     background-color: #ffffff;
     position: fixed;
+    /*right: 20px;*/
     z-index: 100;
   }
 
@@ -76,7 +70,12 @@
     list-style: none;
   }
 
-  .user ul a{
+  .user ul {
+    position: absolute;
+    right: 20px;
+  }
+
+  .user ul a {
     text-decoration: none;
   }
 
