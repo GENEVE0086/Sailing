@@ -2,17 +2,20 @@
     <div id="app">
         <!--    <img src="./assets/logo.png">-->
         <headers></headers>
+        <bottoms></bottoms>
     </div>
 </template>
 
 <script>
-  import Head from '@/components/GH/Head'
-  export default {
-    name: 'App',
-    components:{
-      headers:Head
-    }
+import Head from '@/components/GH/Head'
+import Bottom from '@/components/GH/Bottom'
+export default {
+  name: 'App',
+  components: {
+    headers: Head,
+    bottoms:Bottom
   }
+}
 </script>
 
 <style>

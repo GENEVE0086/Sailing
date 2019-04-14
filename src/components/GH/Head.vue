@@ -14,9 +14,7 @@
             <router-link :to="{name:'Register'}">注册</router-link>
           </li>
         </ul>
-<!--        <span><router-link :to="{name:'Login'}">登录</router-link></span>-->
-<!--        <span><router-link :to="{name:'Register'}">注册</router-link></span>-->
-      </div>
+     </div>
     </div>
     <router-view></router-view>
   </div>
@@ -29,7 +27,7 @@
 
   export default {
     name: 'Head',
-    data() {
+    data () {
       return {};
     },
     components: {
@@ -37,9 +35,9 @@
       register: Register,
       login: Login
     }
-
   }
 </script>
+
 
 <style scoped>
   #head {
@@ -49,10 +47,10 @@
     top: 0;
     background-color: #ffffff;
     position: fixed;
+    height:auto;
     /*right: 20px;*/
     z-index: 100;
   }
-
   .logo {
     margin-top: 13px;
     float: left;

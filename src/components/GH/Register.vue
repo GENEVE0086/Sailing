@@ -6,7 +6,7 @@
 
 <script>
   export default {
-    name: "Register",
+  name: 'Register',
     data() {
       return {}
     }
@@ -21,7 +21,5 @@
     background-size: cover;
     background: #0C1424 url('../../assets/background.jpg') no-repeat fixed center center;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
   }
 </style>
