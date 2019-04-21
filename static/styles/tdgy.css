@@ -1,0 +1,623 @@
+﻿/* CSS Document */
+
+
+/*头部*/
+
+#head {
+    border: 1px solid #eeeeee;
+    min-width: 1200px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 100;
+}
+ul{
+    margin-bottom: 0px !important;
+}
+
+.headone {
+    width: 1200px;
+    margin: 0 auto;
+    height: 68px;
+    position: relative;
+}
+@media screen and (min-width: 1500px){
+    .headone {
+    width: 1500px !important;
+}
+}
+
+
+
+
+.logo {
+    margin-top: 13px
+}
+
+.gynav {
+    margin-left: 66px;
+}
+
+.gynav ul {
+    overflow: hidden;
+}
+
+.gynav ul li {
+    float: left;
+    line-height: 68px;
+    color: #333333;
+    font-size: 16px;
+    padding: 0 14px;
+}
+
+.gynav li:hover {
+    color: #ffffff !important;
+    background-color: #00a7ea;
+}
+
+.gynav li a {
+    display: block;
+}
+
+.gynav ul li img {
+    vertical-align: sub;
+    margin-right: 6px;
+}
+
+.telephone {
+    color: #ffcc00;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 14px
+}
+
+.telephone img {
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.telephone span {
+    letter-spacing: 3px !important;
+}
+
+.threechoices {
+    line-height: 68px;
+}
+
+.threechoices ul li {
+    float: left;
+    color: #333333;
+    font-size: 14px;
+    margin-left: 28px;
+}
+
+.threechoices ul a:hover {
+    color: #00a7eb;
+}
+
+.threechoices ul li img {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.language {
+    width: 110px;
+    line-height: 30px;
+    position: absolute;
+    bottom: -62px;
+    right: 165px;
+    z-index: 1000;
+    display: none;
+    border: 1px solid #EEEEEE;
+    
+}
+
+.language li {
+    padding-left: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    line-height: 30px;
+}
+
+.language li img {
+    vertical-align: middle;
+}
+
+.language li span {
+    color: #666666;
+    font-size: 8.64px;
+    padding-left: 8px;
+}
+
+.language li:hover {
+    background-color: #eeeeee;
+}
+
+
+/*头部*/
+
+
+/*分享*/
+
+#share {
+    margin: 0 auto;
+    width: 46px;
+    position: fixed;
+    bottom: 300px;
+    right: 10px;
+    z-index: 100;
+}
+
+#share>ul>li {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 1px;
+    /* background-color:#434343; */
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+}
+
+#share li img {
+    vertical-align: middle;
+}
+
+#share li a {
+    display: block;
+}
+
+.uls_a {
+    background-color: #434343;
+    width: 46px;
+    height: 46px;
+    opacity: 0.6;
+}
+
+#share>ul>li:hover {
+    background-color: #ffcc00;
+}
+
+#share>ul>li>a:hover {
+    background-color: #ffcc00 !important;
+    opacity: 1 !important;
+}
+
+.ejectphone {
+    background-color: #ffcc00;
+    width: 0px;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    right: 46px;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.ejectphone span {
+    display: block;
+    margin: 0 auto;
+}
+
+.ejectshare {
+    position: absolute;
+    top: 0;
+    right: 46px;
+    width: 0px;
+    overflow: hidden;
+}
+
+.ejectshare ul {
+    width: 230px;
+}
+
+.ejectshare li {
+    width: 46px;
+    height: 46px;
+    background-color: #ffcc00;
+    float: left;
+}
+
+.ejectshare li:hover {
+    background-color: #f5c400;
+}
+
+.bdshare-button-style0-16 {
+    width: 100%;
+    height: 100%;
+}
+
+.bds_weixin {
+    background-image: url(//staticpic.6apt.com/static/images/foote.png) !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-position: 50% 56% !important;
+}
+
+.bdselect_share_bg {
+    display: none !important;
+}
+
+.bdselect_share_box {
+    display: none !important;
+}
+
+.sr-bdimgshare {
+    display: none !important
+}
+
+.fanhui {
+    display: none;
+}
+
+
+/*分享*/
+
+
+/*底部*/
+
+#bottomone {
+    width: 100%;
+    height: auto;
+    background-color: #3a3a3a;
+    min-width: 1200px;
+    margin-top: 0px;
+}
+
+.bottomone {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    overflow: hidden;
+    /* height: 144px; */
+}
+
+.bottomone .logo {
+    margin-top: 0px;
+}
+
+.bottomonez {
+    margin-left: 188px;
+    margin-top: 8px;
+    margin-right: 188px;
+    width: 465px;
+    color: #ffffff;
+    font-size: 14px;
+    /* letter-spacing: 2px; */
+}
+
+.bottomonez a:hover {
+    color: #03a5ee;
+}
+
+.bottomonez .firstul>li:first-child {
+    width: 122%;
+    float: left;
+    margin-right: 0px;
+}
+
+.bottomonez .secul>li {
+    width: 176px;
+    margin-bottom: 24px;
+    /* letter-spacing: 2px; */
+    float: left;
+}
+
+.bottomonez .lastli {
+    width: 22%;
+    float: left;
+    margin-right: 0px;
+}
+
+.bottomonez .lastli>ul>li>span {
+    color: #ccc;
+}
+
+.bottomonez .lastli>ul>li>a {
+    display: block;
+    margin-top: 16px;
+}
+
+.bottomonez .lastli>ul>li>a>span {
+    display: block;
+    text-align: right;
+}
+
+.bottomonez .lastli>ul>li {
+    margin-bottom: 24px;
+    margin-left: 22px;
+}
+
+.bottomoney {
+    width: auto;
+    overflow: hidden;
+}
+
+.bottomoney .fir_ul {
+    margin-bottom: 0px;
+}
+
+.bottomoney .fir_ul .fir_li {
+    height: 32px;
+}
+
+.bottomoney .fir_ul .fir_li .sec_ul>li:first-child {
+    margin-left: 0px;
+}
+
+.bottomoney .fir_ul .fir_li .sec_ul>li {
+    width: 32px;
+    line-height: 30px;
+    height: 32px;
+    border-radius: 5px;
+    float: left;
+    background-color: #00a7eb;
+    text-align: center;
+    margin-left: 16px;
+}
+
+.bottomoney .fir_ul .fir_li .sec_ul>li:hover {
+    background-color: #ffcc00;
+}
+
+.bottomoney .fir_ul .telephone {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
+
+.bottomoney .fir_ul .telephone img {
+    margin-right: 12px;
+    margin-top: 5px;
+}
+
+.bottomoney .telephoneword>span:first-child {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.bottomoney .telephoneword>span:last-child {
+    font-size: 18px;
+    color: #fff;
+}
+
+.bottomoney ul li a {
+    display: block;
+}
+
+.bottomoney ul li img,
+.bottomoney i img {
+    vertical-align: middle;
+}
+
+.bottomoney i {
+    width: 32px;
+    line-height: 30px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottomtwo {
+    width: 100%;
+    border-top: 1px solid #575757;
+    line-height: 64px;
+    color: #ccc;
+    min-width: 1200px;
+
+}
+
+.bottomtwow {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 48px;
+    line-height:48px;
+}
+
+.bottomtwow span {
+    color: #00a7eb !important;
+}
+
+
+/*底部*/
+
+
+/*mobile底部*/
+
+#mobile_bottomone {
+    width: 100%;
+    height: auto;
+    background-color: #3a3a3a;
+    min-width: 320px;
+    margin-top: 0px;
+}
+
+#mobile_bottomone .bottomone {
+    width: 100%;
+    padding-top: 0px;
+    overflow: auto;
+}
+
+#mobile_bottomone .bottomone .bottomonez {
+    margin: 8px 0 0 0;
+    padding: 0 12px;
+    width: 100%;
+    color: #ccc;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+#mobile_bottomone .bottomone .bottomonez .secul>li {
+    margin-right: 0%;
+    width: 50%;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+#mobile_bottomone .bottomone .bottomonez .firstul>li:first-child {
+    width: 76%;
+}
+
+#mobile_bottomone .bottomct {
+    width: 100%;
+    padding: 0 12px;
+    letter-spacing: 2px;
+}
+
+#mobile_bottomone .bottomct .p1 {
+    font-size: 14px;
+    color: #ccc;
+    padding-top: 15px;
+}
+
+#mobile_bottomone .bottomct .p2 {
+    font-size: 14px;
+    color: #ccc;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+#mobile_bottomone .bottomoney .fir_ul .fir_li .sec_ul>li {
+    width: 28px;
+    height: 28px;
+}
+
+#mobile_bottomone .bottomoney {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 45px;
+}
+
+#mobile_bottomone .bottomoney .fir_ul {
+    position: absolute;
+    top: 5;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#mobile_bottomone .bottomtwo {
+    min-width: auto;
+    font-size: 11px;
+    color: #666;
+    line-height: 20px;
+    height: auto;
+}
+
+#mobile_bottomone .bottomonez .lastli>ul>li {
+    margin-bottom: 12px;
+}
+
+#mobile_bottomone .bottomonez .lastli {
+    width: 24%;
+    float: left;
+    margin-right: 0px;
+}
+
+.mobile-bottomtwo {
+    width: 100%;
+    border-top: 1px solid #575757;
+    font-size: 11px;
+    color: #666;
+    height: auto;
+    min-height: 40px;
+}
+
+#mobile_bottomone .bottomtwo p {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 20px;
+}
+
+#sharemobile {
+    margin: 0 auto;
+    width: 46px;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    z-index: 100;
+    height: 0;
+    /* overflow:visible !important; */
+}
+
+#sharemobile>ul>li {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 1px;
+    display: none;
+    /* background-color:#434343; */
+    line-height: 46px;
+    text-align: center;
+    position: relative;
+}
+
+#sharemobile li img {
+    vertical-align: middle;
+}
+
+#sharemobile li a {
+    display: block;
+}
+
+.uls_a {
+    background-color: #434343;
+    width: 46px;
+    height: 46px;
+    opacity: 0.6;
+}
+
+#sharemobile>ul>li:hover {
+    background-color: #ffcc00;
+}
+
+#sharemobile>ul>li>a:hover {
+    background-color: #ffcc00 !important;
+    opacity: 1 !important;
+}
+
+#sharemobile .ejectphone {
+    font-size: 17px;
+}
+
+.mobile-bottomtwo p {
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 20px;
+    width: 98%;
+}
+
+#mobile_bottomone .facebook {
+    position: absolute;
+    left: 9px;
+    top: 4px;
+}
+
+#mobile_bottomone .twitter {
+    position: absolute;
+    top: 5.25px;
+    left: 3.5px;
+}
+
+#mobile_bottomone .weibo {
+    position: absolute;
+    top: 5.75px;
+    left: 3.5px;
+}
+
+#mobile_bottomone .douban {
+    position: absolute;
+    top: 6px;
+    left: 5.5px;
+}
+
+#mobile_bottomone .sec_ul>li>a {
+    position: relative;
+}
+.bottom_span{
+        width: 115px;
+    display: inline-block;
+}

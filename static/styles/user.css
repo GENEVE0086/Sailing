@@ -1,0 +1,147 @@
+@charset "utf-8";
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1;}
+ .login_login_wrap .liji:hover{border-bottom:1px solid #00a7eb;}
+ .mc_layout_wrapper{position:relative;width:100%;height:724px;}
+ .login_layout_cell,.rej_layout_cell, .mc_layout_cell{display:table;tablel-layout:fixed;position:absolute;padding-top:0;height:724px;width:100%;background:url(../../src/assets/background.jpg) no-repeat;background-size:cover;background-position:center center;}
+ .login_content,.rej_content, .mc_content{display:table-cell;vertical-align:middle;}
+ .login_con_cell,.rej_con_cell,.mc_con_cell{width:800px;height:430px;margin: auto auto;background:#fff;vertical-align:middle;}
+ .login_login_text,.rej_login_text,.mc_login_text{border-bottom: 1px solid #eee;height: 70px;text-align: center;font-size: 26px;line-height: 70px;letter-spacing:2px;}
+ .inputlogin,.inputrej{border-bottom: 1px solid #b8b8b8;display: block;width: 100%;height: 34px;padding: 6px 12px;font-size: 16px;line-height: 1.42857143;color: #333;background-color: #fff;background-image: none;margin-bottom:20px;}
+ .inputlogine,.inputreje{border-bottom: 1px solid #b8b8b8;margin-bottom:25px;display: block;width: 100%;height: 34px;padding: 6px 12px;font-size: 16px;line-height: 1.42857143;color: #333;background-color: #fff;background-image: none;	}
+ .btn-lg, .btn-group-lg>.btn{padding: 8.5px 86px;font-size: 16px;line-height: 1.33;border-radius: 4px;margin: 24px 50px;vertical-align: middle;color:#666;letter-spacing:2px;}
+ .loginright ul>li{display:inline;margin-right:27px; }
+ .loginright ul>li:last-child{ margin-right:0px;}
+ .loginright{overflow:hidden;height:216px;border-left: 1px solid #eee;}
+ .loginright .logstyle{margin:50px 0 40px 75px;}
+ .logincont, .registercont{margin-top:50px;margin-left:15px;margin-right:15px;padding-left:15px;padding-right:15px;}
+ .registerbtn {margin:0 auto;width:210px;height:40px;}
+ .registerbtn .btn-lg,.registerbtn.btn-group-lg>.btn{padding: 8.5px 86px;margin:0;margin-top:14px;color:#666;font-size: 16px;line-height: 1.33;border-radius: 4px;vertical-align: middle;}
+ .rgitstl ul{margin:15px auto;}
+ .rgitstl ul>li{display:inline;padding-right:38px;}
+ .rgitstl ul>li:last-child{padding-right:0px;}
+ .rgitstl ul>li:first-child{padding-left:12.5px;}
+ .registerright{overflow:hidden;margin-left:110px;}
+ .inwrap{position:relative;}
+ .btwrap{width: 210px;height: 40px;margin: 70px auto 0px;border-radius:4px;}
+ .btwrap .btwrap_con{width: 210px;height: 40px;position: relative;background: #ffcc00;display: table;border-radius:4px;}
+ .btwrap .btwrap_con .btwrap_detail{background-color: #ffcc00;display: table-cell;vertical-align: middle;height: 40px;text-align: center;width: 210px;background-color:#ffcc00;font-size:16px;border-radius:4px;color:#666;}
+ .registerbtn_con{background-color: #ffcc00;display: table-cell;vertical-align: middle;height: 40px;text-align: center;width: 210px;background-color:#ffcc00;font-size:16px;border-radius:4px;color:#666;}
+ 
+ .zhuce_wrap{position:relative;margin-top:44px;}
+ .zhuce_wrap .liji_login{position:absolute;right:30px;top:14px;}
+ .zhuce_wrap .liji_loginpwd{position:absolute;right:60px;top:24px;}
+ .zhuce_wrap .liji_loginpwd p{color:#00a7eb;font-size:14px;letter-spacing:2px;}
+ .zhuce_wrap .liji_login p{color:#00a7eb;font-size:14px;letter-spacing:2px;}
+ .zhuce_wrap .liji_loginpwd p:hover{border-bottom:1px solid #00a7eb;}
+ .zhuce_wrap .liji_login p:hover{border-bottom:1px solid #00a7eb;}
+ .rgits_mothed{margin:0 auto; width:33.33%;}
+ .decolor{background-color:#ddd;}
+  .col6 span.inputError{left: 27px;}
+  span.inputError{ position: absolute;top: 40px;left: 13px; display: inline-block !important;color: #ff5b5b !important;text-align: left;}
+ .bindmail .inputlogin{border-bottom: 1px solid #b8b8b8;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #999999;
+    background-color: #fff;
+    background-image: none;
+	margin-bottom:25px;
+  }
+   .emailmesa{   
+    width: 64%;
+    height: 100%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .tjbtn .btn-lg, .tjbtn .btn-group-lg>.btn{
+    padding: 10px 90px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin: 20px 25px;
+    vertical-align: middle;
+  }
+   .bindmail .inputlogine{
+     border-bottom: 1px solid #b8b8b8;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #999999;
+    background-color: #fff;
+    background-image: none;
+	
+  }
+  .bindmail{
+   width:40%;
+   height:auto;
+   margin:0 auto;
+  }
+  .tjbtn{
+   width:33.3%;
+   height:auto;
+   margin:0 auto;
+  }
+    .pwdemail{
+    width: 100%;
+    height: auto;    
+    padding: 0px 15px 0px 30px;
+    margin: 0 15px;
+  }
+  .pwdemail>p{
+   font-size:14px;
+   text-align:left;
+   color:#999;
+   letter-spacing:0.5px;
+  }
+
+   .resetpwd{
+   width:40%;
+   height:auto;
+   margin:40px auto;
+   position:relative;
+   }
+    .loginmess{
+    width: 80%;
+    height: 100%;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .okbtn{
+    width:210px;
+	height:40px;
+	margin:0 auto;
+	background-color:#ffcc00;
+	border-radius:4px;
+  }
+  .okbtn .okbtn_con{
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+	background-color: #ffcc00;
+    border-radius: 4px;
+    color: #666;
+	}
+  .okbtn .btn-lg, .okbtn .btn-group-lg>.btn{
+    padding: 10px 90px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+    margin: 20px 25px;
+    vertical-align: middle;
+  }
