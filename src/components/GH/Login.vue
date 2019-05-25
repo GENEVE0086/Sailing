@@ -18,14 +18,18 @@
                   <div class="col-xs-6 col-sm-6" style="padding-right:45px;">
                     <form role="form" id="from-login">
                       <div class="inwrap">
-                        <input type="text" class="inputlogine" name="username" id="account" placeholder="请输入邮箱账号">
+                        <input type="text" class="inputlogin" name="username" id="account" placeholder="请输入邮箱账号">
                       </div>
                       <div class="inwrap">
                         <input type="password" class="inputlogin" name="password" id="password" placeholder="请输入密码">
                       </div>
                       <a href="forgotten-password.htm">
                         <p style="float:right;color:#00a7eb;font-size:14px;letter-spacing:2px;">忘记密码?</p></a>
-                      <div class="btwrap">
+
+<!--                      <div class="inwrap">-->
+<!--                        <input type="text" class="inputlogin"  value="此处为验证码" >-->
+<!--                      </div>-->
+                        <div class="btwrap">
                         <div class="mengcbtn" style="display:none">
                           <table width="100%" height="100%" border="0">
                             <tbody>
@@ -68,7 +72,7 @@
                         </li>
                       </ul>
                     </div>
-                    <p style="text-align:center;padding-left:40px;font-size:14px;color:#666;letter-spacing:2px;">如有疑问，请致电：4000783006</p>
+                    <p style="text-align:center;padding-left:40px;font-size:14px;color:#666;letter-spacing:2px;">如有疑问，请致电：18745007174</p>
                   </div>
                 </div>
                 <p style="font-size:14px;margin-top: 40px;color: #00a7eb;letter-spacing:2px;text-align:center;"><a href="register.html" class="liji">没有帐号，立即注册</a></p>
@@ -96,6 +100,4 @@
      @import "../../../static/styles/bootstrap.min.css";
      @import "../../../static/styles/bootstrap-datetimepicker.min.css";
      @import "../../../static/styles/aboutus.css";
-
-
 </style>

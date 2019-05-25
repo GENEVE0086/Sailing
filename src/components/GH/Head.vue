@@ -23,7 +23,7 @@
 <script>
   import HelloWorld from "../HelloWorld";
   import Login from "./Login";
-  import Register from "./Register";
+  import Register from "./Register0504";
 
 
 

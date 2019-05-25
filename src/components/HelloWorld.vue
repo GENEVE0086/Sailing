@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <button @click="getmessage">click</button>
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -80,15 +81,25 @@
         </a>
       </li>
     </ul>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
   </div>
 </template>
 
 <script>
+  import axios from 'axios'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods:{
+    getmessage(){
+      axios.get('http://127.0.0.1:5000/test?user=a&pwd=d')
+              .then(resuponse=>{
+                this.msg = response.data.connect
+              })
     }
   }
 }

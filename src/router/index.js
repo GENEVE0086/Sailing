@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Head from '@/components/GH/Head'
 import Login from '@/components/GH/Login'
-import Register from '@/components/GH/Register'
+import Register from '@/components/GH/Register0504'
 
 
 Vue.use(Router);
