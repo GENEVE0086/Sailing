@@ -3,7 +3,8 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Head from '@/components/GH/Head'
 import Login from '@/components/GH/Login'
-import Register from '@/components/GH/Register0504'
+import Register from '@/components/GH/Register'
+import total from  '@/components/li/total'
 
 
 Vue.use(Router);
@@ -28,6 +29,12 @@ export default new Router({
       name:'Register',
       path:'/register',
       component:Register
+    },
+    {
+      name:'total',
+      path:'/total',
+      component:total
     }
   ]
+
 })

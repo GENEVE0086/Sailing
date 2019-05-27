@@ -23,8 +23,8 @@
 <script>
   import HelloWorld from "../HelloWorld";
   import Login from "./Login";
-  import Register from "./Register0504";
-
+  import Register from "./Register";
+  import total from "../li/total";
 
 
   export default {
@@ -35,7 +35,8 @@
     components: {
       helloWorld: HelloWorld,
       register: Register,
-      login: Login
+      login: Login,
+      total:total
     }
   }
 </script>

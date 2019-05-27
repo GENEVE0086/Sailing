@@ -69,7 +69,6 @@ body {
     height: 61px;
     margin-top: -40px;
     line-height: 200px;
-    background-image: url(images/arrow.gif);
     overflow: hidden;
    
 }
@@ -446,7 +445,7 @@ body {
 }
 
 .apartment .ritem {
-    width: 32%, ;
+    width: 32%;
     padding-left: 8px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1408,7 +1407,7 @@ table {
 
 .er .erdiv>span,
 .er .erdiv_sec>span {
-    font-weight: Arial Bold;
+
     font-weight: bold;
     line-height: 24px;
 }
@@ -1680,7 +1679,7 @@ w {
     height: 35px;
     font-size: 14px;
     color: #333333;
-    font-weight: Arial Regular;
+
     padding-top: 5px;
     padding-left: 10px;
     z-index: 100;
@@ -1783,7 +1782,7 @@ w {
     background-color: #fff;
     background: -webkit-linear-gradient(top, hsla(0, 0%, 100%, 0), #fff);
     background: linear-gradient(top, hsla(0, 0%, 100%, 0), #fff);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+
     position: absolute;
     bottom: 0px;
     display: none;
