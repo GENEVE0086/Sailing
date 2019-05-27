@@ -4,7 +4,7 @@
   <!-- house -->
   <div id="house">
     <div class="zufang">
-      <a href="www_6apt_default_4.html" class="canclick">首页</a>
+      <router-link :to="{name:'HelloWorld'}">首页</router-link>
       <img src="../../assets/breadcum_navb.png" width="10" height="8" class="breadcum_nav"  >
       <a>铁道学院租房</a>
       <img src="../../assets/breadcum_navb.png" width="10" height="8" class="breadcum_nav" /><a href="javascript:;">通泰梅岭苑</a>
@@ -98,26 +98,28 @@
       <div class="look"><a>查看详情</a></div>
     </li>	</div>
   </div>
+    <router-view></router-view>
 
   <!-- tab结束 -->
   </div>
 </template>
 
 <script>
-    export default {
-        name: "total",
-      data() {
-        return {}
-      }
-    }
+import HelloWorld from '../HelloWorld'
+
+export default {
+  name: 'total',
+  data () {
+    return {}
+  },
+  components: {
+    helloWorld: HelloWorld
+  }
+}
 </script>
 
 <style scoped>
-  @import "../../../static/styles/user.css";
   @import "../../../static/styles/common.css";
-  @import "../../../static/styles/bootstrap.min.css";
-  @import "../../../static/styles/bootstrap-datetimepicker.min.css";
-  @import "../../../static/styles/aboutus.css";
   @import "../../../static/styles/index.css";
   @import "../../../static/styles/responsiveslides.css";
   @import "../../../static/styles/tdgy.css";

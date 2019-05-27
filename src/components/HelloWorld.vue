@@ -51,7 +51,7 @@
     <img src="../assets/bg1.png" class="bg1 fl" alt="" >
     <div class="one" >
       <div class="one-1 fl">
-        <img src="../assets/fw1.png"   width="285" height="400" alt="">
+        <router-link :to="{name:'total'}"> <img src="../assets/fw1.png"   width="285" height="400" alt=""> </router-link>
       </div>
       <div class="one-2 fl">
         <img src="../assets/fw2.png"   width="285" height="400" alt="">
@@ -69,27 +69,26 @@
     </div>
     <!-- news结束 -->
   </div>
+  <router-view></router-view>
 </div>
 </template>
 
 <script>
-  import total from "./li/total"
+import total from './li/total'
 export default {
   name: 'HelloWorld',
   data: function () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-
   },
   components: {
-    total:total
+    total: total
   },
-  methods:{
+  methods: {
   }
 }
 </script>
-
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

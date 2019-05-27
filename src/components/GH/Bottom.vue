@@ -1,9 +1,8 @@
 <template>
 <div id="bottom">
 <div class="logo">
-    <router-link :to="{name:'HelloWorld'}">
-        <img src="http://staticpic.6apt.com/static/images/logo.png" width="178"
-             height="38" alt=""></router-link>
+    <router-link :to="{name:'HelloWorld'}"><img src="../../assets/logo.png" width="178"
+                                                height="42" alt=""></router-link>
 
 </div>
     <div class="links">

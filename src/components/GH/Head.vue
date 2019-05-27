@@ -2,8 +2,8 @@
   <div>
     <div id="head">
       <div class="logo">
-        <router-link :to="{name:'HelloWorld'}"><img src="http://staticpic.6apt.com/static/images/logo.png" width="178"
-                                                    height="38" alt=""></router-link>
+        <router-link :to="{name:'HelloWorld'}"><img src="../../assets/logo.png" width="178"
+                                                    height="42" alt=""></router-link>
       </div>
       <div class="user">
         <ul>
@@ -21,26 +21,24 @@
 </template>
 
 <script>
-  import HelloWorld from "../HelloWorld";
-  import Login from "./Login";
-  import Register from "./Register";
-  import total from "../li/total";
+import HelloWorld from '../HelloWorld'
+import Login from './Login'
+import Register from './Register'
+import total from '../li/total'
 
-
-  export default {
-    name: 'Head',
-    data () {
-      return {};
-    },
-    components: {
-      helloWorld: HelloWorld,
-      register: Register,
-      login: Login,
-      total:total
-    }
+export default {
+  name: 'Head',
+  data () {
+    return {}
+  },
+  components: {
+    helloWorld: HelloWorld,
+    register: Register,
+    login: Login,
+    total: total
   }
+}
 </script>
-
 
 <style scoped>
   #head {

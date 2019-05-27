@@ -57,18 +57,17 @@
                       <i style="width:46px;height:1px;padding:0px;display:inline-block;background-color:#eeeeee;vertical-align:middle;"></i>
                     </div>
 
-
                     <div class="logstyle">
                       <ul style="margin-left: -8px;">
                         <li>
-                          <a href=""><img src="//staticpic.6apt.com/static/images/weixin.png" alt=""/></a>
+                          <a href=""><img src="//staticpic.6apt.com/static/images/weixin.png" alt="微信登录"/></a>
                         </li>
                         <li>
                           <a href=""><img src="//staticpic.6apt.com/static/images/qq.png" alt="QQ登录" /></a>
                         </li>
 
                         <li>
-                          <a href=""><img src="//staticpic.6apt.com/static/images/weibo.png" alt=""/></a>
+                          <a href=""><img src="//staticpic.6apt.com/static/images/weibo.png" alt="微博登录"/></a>
                         </li>
                       </ul>
                     </div>
@@ -86,12 +85,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'Login',
-    data() {
-      return {}
-    }
+export default {
+  name: 'Login',
+  data () {
+    return {}
   }
+}
 </script>
 
 <style scoped>
