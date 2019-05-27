@@ -57,11 +57,9 @@
         <img src="../assets/fw2.png"   width="285" height="400" alt="">
       </div>
       <!-- 新添活动 -->
-      <a href="">
         <div class="one-3 fl">
           <img src="../assets/fw3.png"   width="285" height="400" alt="">
         </div>
-      </a>
       <div class="one-4 fl">
         <img src="../assets/fw4.png"  width="285" height="400" alt="">
       </div>
