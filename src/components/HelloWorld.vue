@@ -26,7 +26,7 @@
             </div>
             <div class="wrapinput">
               <input type="text"  id="keyword" class="shuru fl" onKeyUp="retrieve()" value="铁道学院" readonly="readonly">
-              <router-link :to="{name:'total'}"><input type="button" value="搜索" class="tijiao fl" id="searchButton"></router-link>
+              <router-link :to="{name:'search'}"><input type="button" value="搜索" class="tijiao fl" id="searchButton"></router-link>
             </div>
           </div>
         </div>
@@ -73,6 +73,7 @@
 
 <script>
 import total from './li/total'
+import search from './li/search'
 export default {
   name: 'HelloWorld',
   data: function () {
@@ -81,7 +82,9 @@ export default {
     }
   },
   components: {
-    total: total
+    total: total,
+    search:search
+
   },
   methods: {
   }

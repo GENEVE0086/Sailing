@@ -25,6 +25,7 @@ import HelloWorld from '../HelloWorld'
 import Login from './Login'
 import Register from './Register'
 import total from '../li/total'
+import search from "../li/search";
 
 export default {
   name: 'Head',
@@ -35,7 +36,8 @@ export default {
     helloWorld: HelloWorld,
     register: Register,
     login: Login,
-    total: total
+    total: total,
+    search:search
   }
 }
 </script>
