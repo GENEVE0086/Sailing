@@ -47,7 +47,7 @@
                           <tbody>
                           <tr>
                             <td align="center" valign="center">
-                              <img src="button.gif" width="22" height="22" data-bd-imgshare-binded="1">
+                              <img src="../../assets/button.gif" width="22" height="22" data-bd-imgshare-binded="1">
                             </td>
                           </tr>
                           </tbody>
@@ -56,7 +56,11 @@
                       <div class="registerbtn">
                         <input type="submit" class="registerbtn_con"  value="提交">
                       </div>
-                      <div class="liji_login"><a href="login.html"><p>已有账号,马上登录</p></a></div>
+                      <div class="liji_login">
+                        <router-link :to="{name:'Login'}">
+                          <p>已有账号,马上登录</p>
+                        </router-link>
+                      </div>
                     </div>
                   </form>
                 </div>
@@ -75,14 +79,14 @@
 
                   <ul>
                     <li>
-                      <img src="weixin.png" alt=""/>
+                      <img src="../../assets/weixin.png" alt=""/>
                     </li>
                     <li>
-                      <img src="qq.png" alt=""/>
+                      <img src="../../assets/qq.png" alt=""/>
                     </li>
 
                     <li>
-                      <img src="weibo.png" alt=""/>
+                      <img src="../../assets/weibo.png" alt=""/>
                     </li>
                   </ul>
 
@@ -102,10 +106,15 @@
 </template>
 
 <script>
+  import Login from './Login'
+
   export default {
-  name: 'Register',
+    name: 'Register',
     data() {
       return {}
+    },
+    components: {
+      login: Login
     }
   }
 </script>
@@ -117,10 +126,9 @@
   @import "../../../static/styles/bootstrap-datetimepicker.min.css";
   @import "../../../static/styles/aboutus.css";
   @import "../../../static/styles/index.css";
-  @import "../../../static/styles/responsiveslides.css";
   @import "../../../static/styles/tdgy.css";
   @import "../../../static/styles/list.css";
   @import "../../../static/styles/responsiveslides.css";
-  
+
 
 </style>

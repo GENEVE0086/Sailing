@@ -35,7 +35,7 @@
                             <tbody>
                             <tr>
                               <td align="center" valign="center">
-                                <img src="button.gif" width="22" height="22" data-bd-imgshare-binded="1">
+                                <img src="../../assets/button.gif" width="22" height="22" data-bd-imgshare-binded="1">
                               </td>
                             </tr>
                             </tbody>
@@ -74,7 +74,11 @@
                     <p style="text-align:center;padding-left:40px;font-size:14px;color:#666;letter-spacing:2px;">如有疑问，请致电：18745007174</p>
                   </div>
                 </div>
-                <p style="font-size:14px;margin-top: 40px;color: #00a7eb;letter-spacing:2px;text-align:center;"><a href="register.html" class="liji">没有帐号，立即注册</a></p>
+                <p style="font-size:14px;margin-top: 40px;color: #00a7eb;letter-spacing:2px;text-align:center;">
+                  <router-link :to="{name:'Register'}" class="liji">
+                    没有帐号，立即注册
+                  </router-link>
+                </p>
               </div>
             </div>
           </div>
@@ -85,11 +89,16 @@
 </template>
 
 <script>
-export default {
+  import Register from './Register'
+
+  export default {
   name: 'Login',
   data () {
     return {}
-  }
+  },
+    components: {
+      Register:Register
+    }
 }
 </script>
 

@@ -6,8 +6,8 @@
       <div class="zufang">
         <router-link :to="{name:'HelloWorld'}">首页</router-link>
         <img src="../../assets/breadcum_navb.png" width="10" height="8" class="breadcum_nav"  >
-        <a>铁道学院租房</a>
-        <img src="../../assets/breadcum_navb.png" width="10" height="8" class="breadcum_nav" /><a href="javascript:;">通泰梅岭苑</a>
+          <router-link :to="{name:'search'}">铁道学院租房</router-link>
+          <img src="../../assets/breadcum_navb.png" width="10" height="8" class="breadcum_nav" /><a href="javascript:;">通泰梅岭苑</a>
       </div>
       <div class="house_con">
         <div class="wrap2">
@@ -106,13 +106,16 @@
 
 <script>
   import HelloWorld from '../HelloWorld'
+  import search from '../li/search'
+
   export default {
     name: 'total',
     data () {
       return {}
     },
     components: {
-      helloWorld: HelloWorld
+      helloWorld: HelloWorld,
+        search:search
     }
   }
 </script>
